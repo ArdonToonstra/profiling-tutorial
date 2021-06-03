@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="a6014c5b-d051-4c29-8eb0-f4afb29b4f05" />
+  <meta>
+    <versionId value="4" />
+    <lastUpdated value="2021-06-02T17:17:48.694+00:00" />
+  </meta>
+  <url value="http://ardon.nl/fhir/StructureDefinition/InclusionStatus" />
+  <version value="0.0.1" />
+  <name value="InclusionStatus" />
+  <title value="Inclusion Status" />
+  <status value="draft" />
+  <date value="2021-06-02T17:17:47.9265434+00:00" />
+  <description value="Definition of Inclusion Status for Hospital X patient." />
+  <fhirVersion value="4.0.1" />
+  <mapping>
+    <identity value="rim" />
+    <uri value="http://hl7.org/v3" />
+    <name value="RIM Mapping" />
+  </mapping>
+  <kind value="complex-type" />
+  <abstract value="false" />
+  <context>
+    <type value="fhirpath" />
+    <expression value="Patient" />
+  </context>
+  <type value="Extension" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Extension.extension">
+      <path value="Extension.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Extension.extension:clinicalTrialNumber">
+      <path value="Extension.extension" />
+      <sliceName value="clinicalTrialNumber" />
+      <max value="1" />
+    </element>
+    <element id="Extension.extension:clinicalTrialNumber.url">
+      <path value="Extension.extension.url" />
+      <fixedUri value="clinicalTrialNumber" />
+    </element>
+    <element id="Extension.extension:clinicalTrialNumber.value[x]">
+      <path value="Extension.extension.value[x]" />
+      <type>
+        <code value="Identifier" />
+      </type>
+    </element>
+    <element id="Extension.extension:clinicalTrialNumber.value[x].system">
+      <path value="Extension.extension.value[x].system" />
+      <min value="1" />
+    </element>
+    <element id="Extension.extension:clinicalTrialNumber.value[x].value">
+      <path value="Extension.extension.value[x].value" />
+      <min value="1" />
+    </element>
+    <element id="Extension.extension:periodOfInvolvement">
+      <path value="Extension.extension" />
+      <sliceName value="periodOfInvolvement" />
+      <max value="1" />
+    </element>
+    <element id="Extension.extension:periodOfInvolvement.url">
+      <path value="Extension.extension.url" />
+      <fixedUri value="periodOfInvolvement" />
+    </element>
+    <element id="Extension.extension:periodOfInvolvement.value[x]">
+      <path value="Extension.extension.value[x]" />
+      <type>
+        <code value="Period" />
+      </type>
+    </element>
+    <element id="Extension.extension:inclusionStatus">
+      <path value="Extension.extension" />
+      <sliceName value="inclusionStatus" />
+      <max value="1" />
+    </element>
+    <element id="Extension.extension:inclusionStatus.url">
+      <path value="Extension.extension.url" />
+      <fixedUri value="inclusionStatus" />
+    </element>
+    <element id="Extension.extension:inclusionStatus.value[x]">
+      <path value="Extension.extension.value[x]" />
+      <type>
+        <code value="CodeableConcept" />
+      </type>
+      <binding>
+        <strength value="required" />
+        <description value="ResearchSubjectStatus" />
+        <valueSet value="http://hl7.org/fhir/ValueSet/research-subject-status" />
+      </binding>
+    </element>
+    <element id="Extension.url">
+      <path value="Extension.url" />
+      <fixedUri value="http://ardon.nl/fhir/StructureDefinition/InclusionStatus" />
+    </element>
+    <element id="Extension.value[x]">
+      <path value="Extension.value[x]" />
+      <max value="0" />
+    </element>
+  </differential>
+</StructureDefinition>

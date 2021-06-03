@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="HospitalXCondition" />
+  <meta>
+    <versionId value="1" />
+    <lastUpdated value="2021-06-03T13:08:20.451+00:00" />
+  </meta>
+  <url value="http://ardon.nl/fhir/StructureDefinition/HospitalXCondition" />
+  <name value="HospitalXCondition" />
+  <title value="HospitalXCondition" />
+  <status value="draft" />
+  <date value="2021-06-03T13:08:19.6959416+00:00" />
+  <description value="HospitalXCondition profile." />
+  <fhirVersion value="4.0.1" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Condition" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Condition" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Condition.code">
+      <path value="Condition.code" />
+      <min value="1" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://hl7.org/fhir/ValueSet/clinical-findings" />
+      </binding>
+    </element>
+    <element id="Condition.subject">
+      <path value="Condition.subject" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://ardon.nl/fhir/StructureDefinition/HospitalXPatient" />
+      </type>
+    </element>
+    <element id="Condition.recorder">
+      <path value="Condition.recorder" />
+      <min value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://ardon.nl/fhir/StructureDefinition/HospitalXPractitioner" />
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>
