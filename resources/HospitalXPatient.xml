@@ -32,6 +32,7 @@
       <path value="Patient.extension" />
       <sliceName value="birthPlace" />
       <min value="1" />
+      <max value="1" />
       <type>
         <code value="Extension" />
         <profile value="http://hl7.org/fhir/StructureDefinition/patient-birthPlace" />
@@ -40,6 +41,8 @@
     <element id="Patient.extension:inclusionStatus">
       <path value="Patient.extension" />
       <sliceName value="inclusionStatus" />
+      <min value="0" />
+      <max value="*" />
       <type>
         <code value="Extension" />
         <profile value="http://ardon.nl/fhir/StructureDefinition/InclusionStatus" />
