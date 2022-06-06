@@ -2,14 +2,13 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="HospitalXPractitioner-Step3" />
   <meta>
-    <versionId value="2" />
-    <lastUpdated value="2021-06-03T13:06:46.03+00:00" />
+    <lastUpdated value="2021-06-03T13:06:45.93+00:00" />
   </meta>
   <url value="http://ardon.nl/fhir/StructureDefinition/HospitalXPractitioner-Step3" />
   <name value="HospitalXPractitionerStep3" />
-  <title value="HospitalXPractitioner Step3" />
+  <title value="Hospital X Practitioner step 3" />
   <status value="draft" />
-  <date value="2021-06-03T12:49:29.723149Z" />
+  <date value="2022-06-05T20:58:00.3967001+00:00" />
   <description value="HospitalXPractitioner profile after step 3." />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
@@ -20,33 +19,6 @@
   <differential>
     <element id="Practitioner.identifier">
       <path value="Practitioner.identifier" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="use" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-      <min value="1" />
-    </element>
-    <element id="Practitioner.identifier:NPI">
-      <path value="Practitioner.identifier" />
-      <sliceName value="NPI" />
-      <min value="1" />
-      <max value="1" />
-    </element>
-    <element id="Practitioner.identifier:NPI.use">
-      <path value="Practitioner.identifier.use" />
-      <min value="1" />
-      <fixedCode value="official" />
-    </element>
-    <element id="Practitioner.identifier:NPI.system">
-      <path value="Practitioner.identifier.system" />
-      <min value="1" />
-      <fixedUri value="http://hl7.org/fhir/sid/us-npi" />
-    </element>
-    <element id="Practitioner.identifier:NPI.value">
-      <path value="Practitioner.identifier.value" />
       <min value="1" />
     </element>
     <element id="Practitioner.name">

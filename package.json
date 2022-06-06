@@ -1,0 +1,12 @@
+{
+  "name": "acme.profiling.tutorial.r4",
+  "version": "1.0.0",
+  "description": "ACME project explaining the creation and use of FHIR profiles using Forge and Simplifier. Mainly used in DevDays 'Let's Build!' workshops.",
+  "author": "ACME",
+  "dependencies": {
+    "hl7.fhir.us.core": "4.1.0"
+  },
+  "fhirVersions": [
+    "4.0.1"
+  ]
+}

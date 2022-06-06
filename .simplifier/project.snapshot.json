@@ -1,0 +1,190 @@
+{
+  "Timestamp": "2022-06-05T17:35:45.6872295+00:00",
+  "Files": {
+    "guides\\acme-profiling-tutorial-r4\\styles\\ACME-DevDays-Theme\\master.html": {
+      "Length": 4291,
+      "LastWriteTime": "2022-06-05T16:41:54+00:00",
+      "Hash": "2C25E4590030792631A77F7163228661"
+    },
+    "package.json": {
+      "Length": 349,
+      "LastWriteTime": "2022-06-05T21:38:55.2330404+00:00",
+      "Hash": "EEE7CD6369F80C8EF2C443C78BA71593"
+    },
+    "guides\\acme-profiling-tutorial-r4\\Home\\Contact\\Getintouch.page.md": {
+      "Length": 1147,
+      "LastWriteTime": "2022-06-05T16:41:54+00:00",
+      "Hash": "83FAFEAD69878C374AE3F1783F080551"
+    },
+    "guides\\acme-profiling-tutorial-r4\\Home\\toc.yaml": {
+      "Length": 122,
+      "LastWriteTime": "2022-06-05T16:41:54+00:00",
+      "Hash": "CB2B1648CD3BDE4BB509D76767F26B27"
+    },
+    "guides\\acme-profiling-tutorial-r4\\Home\\Index.page.md": {
+      "Length": 1137,
+      "LastWriteTime": "2022-06-05T17:07:34+00:00",
+      "Hash": "AF6F6EB550F90F76A14E74C911271BF0"
+    },
+    "guides\\acme-profiling-tutorial-r4\\Home\\Exercises\\toc.yaml": {
+      "Length": 118,
+      "LastWriteTime": "2022-06-06T06:19:44+00:00",
+      "Hash": "DC6AB27B025BE1FEDEF627E3569706FA"
+    },
+    "resources\\HospitalXPractitioner.xml": {
+      "Length": 2964,
+      "LastWriteTime": "2022-06-05T21:17:27.1751087+00:00",
+      "Hash": "816358C903089DB9A46E62625A2D576E"
+    },
+    "resources\\HospitalXPatient.xml": {
+      "Length": 3640,
+      "LastWriteTime": "2022-06-05T21:17:27.1681129+00:00",
+      "Hash": "2423E7A6FAAAD9CBDFA5D01A115D5F4F"
+    },
+    "guides\\acme-profiling-tutorial-r4\\Home\\Contact\\toc.yaml": {
+      "Length": 109,
+      "LastWriteTime": "2022-06-05T16:41:54+00:00",
+      "Hash": "16A919D5D2736B02263DCEB298B6047E"
+    },
+    "resources\\HospitalXImmunization.xml": {
+      "Length": 1130,
+      "LastWriteTime": "2022-06-05T21:17:27.1590934+00:00",
+      "Hash": "321DD2095120113ED70DF1C3BFA62ACC"
+    },
+    "guides\\acme-profiling-tutorial-r4\\styles\\ACME-DevDays-Theme\\style.css": {
+      "Length": 6453,
+      "LastWriteTime": "2022-06-06T00:43:38+00:00",
+      "Hash": "32639221B703CB55524FFD7CF9C5361F"
+    },
+    "guides\\acme-profiling-tutorial-r4\\toc.yaml": {
+      "Length": 32,
+      "LastWriteTime": "2022-06-05T16:41:50+00:00",
+      "Hash": "3E2BC1817DFD8F2BD16B380005C2838F"
+    },
+    "resources\\HospitalXCondition.xml": {
+      "Length": 2928,
+      "LastWriteTime": "2022-06-05T21:17:27.1550243+00:00",
+      "Hash": "899E931F3158C070E3BE18213F909AD3"
+    },
+    "guides\\acme-profiling-tutorial-r4\\guide.yaml": {
+      "Length": 186,
+      "LastWriteTime": "2022-06-05T17:01:22+00:00",
+      "Hash": "2F5583A1017E57FE7ECEADD51C3216AE"
+    },
+    "resources\\ext-InclusionStatus.xml": {
+      "Length": 3942,
+      "LastWriteTime": "2022-06-05T21:17:27.1450285+00:00",
+      "Hash": "4E89F823AFCBCC39905FE14B7D17FD49"
+    },
+    "guides\\acme-profiling-tutorial-r4\\styles\\ACME-DevDays-Theme\\settings.style": {
+      "Length": 79,
+      "LastWriteTime": "2022-06-05T16:41:54+00:00",
+      "Hash": "D4B39614B3E8F67CB48474C18BFA5991"
+    },
+    "guides\\acme-profiling-tutorial-r4\\Home\\Contact\\AboutFirely.page.md": {
+      "Length": 1297,
+      "LastWriteTime": "2022-06-05T16:41:54+00:00",
+      "Hash": "41B931F663C08CD4700D607C46AA56E8"
+    },
+    "project.yaml": {
+      "Length": 20,
+      "LastWriteTime": "2022-06-05T17:35:45.1968422+00:00",
+      "Hash": "42B23FADEA2F80D9D76908D39CD8463A"
+    },
+    "README.md": {
+      "Length": 543,
+      "LastWriteTime": "2021-06-03T20:23:25.9907887+00:00",
+      "Hash": "340F8C8FDFE45FF7A5A5478D3F3EC3AD"
+    },
+    "resources-per-step\\HospitalXConditionStep3.xml": {
+      "Length": 2284,
+      "LastWriteTime": "2022-06-05T20:58:00.4063313+00:00",
+      "Hash": "15264B32B97882187436213571F7382B"
+    },
+    "resources-per-step\\HospitalXConditionStep4.xml": {
+      "Length": 1646,
+      "LastWriteTime": "2022-06-05T20:58:00.4083668+00:00",
+      "Hash": "C4EF802FE3909D913BB2DB26EAFBD2C6"
+    },
+    "resources-per-step\\HospitalXImmunizationStep5.xml": {
+      "Length": 1160,
+      "LastWriteTime": "2022-06-05T20:58:00.4103306+00:00",
+      "Hash": "EFBFCD390A8FFBAA9F30196E1EE9BF65"
+    },
+    "resources-per-step\\HospitalXPatientInclusionStatusStep2.xml": {
+      "Length": 3787,
+      "LastWriteTime": "2022-06-05T20:58:00.4123303+00:00",
+      "Hash": "886500BB337D73EAEF3E65EADE6E554D"
+    },
+    "resources-per-step\\HospitalXPatientStep1.xml": {
+      "Length": 1696,
+      "LastWriteTime": "2022-06-05T20:58:00.4133663+00:00",
+      "Hash": "B9FFBDE861505F4C1922C498F6F1C4B4"
+    },
+    "resources-per-step\\HospitalXPatientStep2.xml": {
+      "Length": 3300,
+      "LastWriteTime": "2022-06-05T20:58:00.4153293+00:00",
+      "Hash": "E090781E3EE2BECC6972FA86D918FF3C"
+    },
+    "resources-per-step\\HospitalXPractitionerStep3.xml": {
+      "Length": 1382,
+      "LastWriteTime": "2022-06-05T20:58:00.4163294+00:00",
+      "Hash": "B3F27F7204E9B34EDD9146CA41DF0056"
+    },
+    "resources-per-step\\HospitalXPractitionerStep6.xml": {
+      "Length": 3001,
+      "LastWriteTime": "2022-06-05T20:58:00.4183313+00:00",
+      "Hash": "6CFA8F86B39EF3FABD3105C1162A775F"
+    },
+    "guides\\acme-profiling-tutorial-r4\\Home\\Exercises\\Receive-patient-data-from-general-practitioners\\1BasicProfiling.page.md": {
+      "Length": 2043,
+      "LastWriteTime": "2022-06-06T05:49:30+00:00",
+      "Hash": "EF34692EEB8585C88E5A81DF9F92BF32"
+    },
+    "guides\\acme-profiling-tutorial-r4\\Home\\Exercises\\Receive-patient-data-from-general-practitioners\\2Extensions.page.md": {
+      "Length": 3114,
+      "LastWriteTime": "2022-06-06T06:06:28+00:00",
+      "Hash": "EC13BA669840CEB697EDEC7F34388F77"
+    },
+    "guides\\acme-profiling-tutorial-r4\\Home\\Exercises\\Receive-patient-data-from-general-practitioners\\3ProfileReferences.page.md": {
+      "Length": 1744,
+      "LastWriteTime": "2022-06-06T05:54:52+00:00",
+      "Hash": "2099448173234E831ED85A21A9713C06"
+    },
+    "guides\\acme-profiling-tutorial-r4\\Home\\Exercises\\Receive-patient-data-from-general-practitioners\\4TerminologyBindings.page.md": {
+      "Length": 1874,
+      "LastWriteTime": "2022-06-06T06:06:54+00:00",
+      "Hash": "F1572CF204916A81555EFEEC45F1B980"
+    },
+    "guides\\acme-profiling-tutorial-r4\\Home\\Exercises\\Receive-patient-data-from-general-practitioners\\5DerivedProfiles.page.md": {
+      "Length": 2082,
+      "LastWriteTime": "2022-06-06T06:07:08+00:00",
+      "Hash": "91B62B8AEE6FEDE713DC7D5F2C2030A9"
+    },
+    "guides\\acme-profiling-tutorial-r4\\Home\\Exercises\\Receive-patient-data-from-general-practitioners\\6Slicing.page.md": {
+      "Length": 1452,
+      "LastWriteTime": "2022-06-06T06:07:14+00:00",
+      "Hash": "7DB0D8F5766B2E429F3C69E82280D35B"
+    },
+    "guides\\acme-profiling-tutorial-r4\\Home\\Exercises\\Receive-patient-data-from-general-practitioners\\7PublishToSimplifier.net.page.md": {
+      "Length": 966,
+      "LastWriteTime": "2022-06-06T06:12:34+00:00",
+      "Hash": "B13BF51F81F516128466D9D20F2AF219"
+    },
+    "guides\\acme-profiling-tutorial-r4\\Home\\Exercises\\Receive-patient-data-from-general-practitioners\\8ValidationBonus.page.md": {
+      "Length": 1735,
+      "LastWriteTime": "2022-06-06T06:17:06+00:00",
+      "Hash": "EB63F7D153881F79E02F2EEEFBE8C0AB"
+    },
+    "guides\\acme-profiling-tutorial-r4\\Home\\Exercises\\Receive-patient-data-from-general-practitioners\\Index.page.md": {
+      "Length": 1971,
+      "LastWriteTime": "2022-06-06T05:35:52+00:00",
+      "Hash": "5F621AF194346077F09F7F3BDA7A50B7"
+    },
+    "guides\\acme-profiling-tutorial-r4\\Home\\Exercises\\Receive-patient-data-from-general-practitioners\\toc.yaml": {
+      "Length": 603,
+      "LastWriteTime": "2022-06-05T22:20:16.3908085+00:00",
+      "Hash": "AF1E88BD8A32516DCF1DC8FE969D9C78"
+    }
+  }
+}

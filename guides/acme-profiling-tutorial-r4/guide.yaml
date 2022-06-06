@@ -1,0 +1,5 @@
+title: ACME profiling exercises
+description: DevDays 'Let's Build!' exercises to get hands-on with FHIR profiling.
+version: 1.0.0
+style-root: project
+style-name: ACME-DevDays-Theme

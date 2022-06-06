@@ -2,14 +2,13 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="HospitalXImmunization-Step5" />
   <meta>
-    <versionId value="1" />
-    <lastUpdated value="2021-06-03T14:37:26.841+00:00" />
+    <lastUpdated value="2021-06-03T14:37:26.822+00:00" />
   </meta>
   <url value="http://ardon.nl/fhir/StructureDefinition/HospitalXImmunization-Step5" />
   <name value="HospitalXImmunizationStep5" />
-  <title value="HospitalXImmunization Step5" />
+  <title value="Hospital X Immunization step 5" />
   <status value="draft" />
-  <date value="2021-06-03T14:37:26.6390714+00:00" />
+  <date value="2022-06-05T20:58:00.3967001+00:00" />
   <purpose value="Devrived us-core-immunization profile for HospitalXImmunization-Step5." />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />

@@ -1,0 +1,18 @@
+- name: Index
+  filename: Index.page.md
+- name: '#1: Basic profiling'
+  filename: 1BasicProfiling.page.md
+- name: '#2: Extensions'
+  filename: 2Extensions.page.md
+- name: '#3: Profile references'
+  filename: 3ProfileReferences.page.md
+- name: '#4: Terminology bindings'
+  filename: 4TerminologyBindings.page.md
+- name: '#5: Derived profiles'
+  filename: 5DerivedProfiles.page.md
+- name: '#6: Slicing'
+  filename: 6Slicing.page.md
+- name: '#7: Publish to Simplifier.net'
+  filename: 7PublishToSimplifier.net.page.md
+- name: '#8: Validation (bonus)'
+  filename: 8ValidationBonus.page.md

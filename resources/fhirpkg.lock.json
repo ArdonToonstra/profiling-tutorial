@@ -1,9 +1,0 @@
-{
-  "updated": "2021-06-03T22:36:30.9526441+02:00",
-  "dependencies": {
-    "hl7.fhir.us.core": "3.2.0",
-    "hl7.fhir.r4.core": "4.0.1",
-    "us.nlm.vsac": "0.3.0"
-  },
-  "missing": {}
-}

@@ -2,14 +2,13 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="HospitalXPatient-Step1" />
   <meta>
-    <versionId value="2" />
-    <lastUpdated value="2021-06-03T20:46:45.382+00:00" />
+    <lastUpdated value="2021-06-03T20:46:45.34+00:00" />
   </meta>
   <url value="http://ardon.nl/fhir/StructureDefinition/HospitalXPatient-Step1" />
   <name value="HospitalXPatientStep1" />
-  <title value="HospitalXPatient Step 1" />
+  <title value="Hospital X Patient step 1" />
   <status value="draft" />
-  <date value="2021-06-03T20:46:45.2103104+00:00" />
+  <date value="2022-06-05T20:58:00.3967001+00:00" />
   <description value="HospitalXPatient profile after step 1." />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
